@@ -15,12 +15,12 @@ class InfoTopicSubscriber(Node):
         super().__init__('rostopic_sub')
         qos_profile = QoSProfile(depth=10)
         self.basicsrv_subscriber = self.create_subscription(
-            String,
+            Infodata,
             'infodata',
             self.subscribe_info_message,
             qos_profile)
 
-    def basicsrv_subscriber(self, msg):
+    def subscribe_info_message(self, msg):
         self.get_logger().info('Received id_num:{0} id_accountnum: {0}'.format(msg.id_num, msg.account))
 
 
