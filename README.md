@@ -7,6 +7,7 @@ colcon build --packages-select ros2_basic_test
 source /home/nvidia/ros2_ws/install/setup.bash
 
 ros2 run ros2_basic_test rostopic_pub
+
 ros2 run ros2_basic_test rostopic_sub
 
 --------------------------
@@ -17,6 +18,7 @@ colcon build --packages-select ros2_basic_topicmsg
 
 
 ros2 run ros2_basic_topicmsg info_publisher
+
 ros2 run ros2_basic_topicmsg info_subscriber
 
 -----------------
@@ -24,14 +26,20 @@ ros2 run ros2_basic_topicmsg info_subscriber
 colcon build --packages-select ros2_basic_service
 
 ros2 run ros2_basic_service srv_server
+
 ros2 run ros2_basic_service srv_client
 
 -----------------
 
 colcon build --packages-select ros2_basic_action
 
+ros2 run ros2_basic_action simple_action_server
+
 ros2 run ros2_basic_action simple_action_client
-ros2 run ros2_basic_action simple_action_client
+
+------------
+
+ros2 launch ros2_basic_test basic_test_launch.py
 
 
 
