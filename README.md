@@ -1,3 +1,13 @@
+## Edit bashrc for ROS workspace setting 
+
+cd
+
+gedit .bashrc
+
+ROS_DOMAIN_ID 를 본인 번호로 바꾸어 주세요
+
+저장
+
 # rsaem_ros2_basic
 
 https://drive.google.com/file/d/1VAbHFt9c2Rku92v30xDB8SwsaRMi1u_F/view?usp=sharing
