@@ -11,7 +11,7 @@ ROS_DOMAIN_ID 를 본인 번호로 바꾸어 주세요
 # rsaem_ros2_basic
 
 https://drive.google.com/file/d/1VAbHFt9c2Rku92v30xDB8SwsaRMi1u_F/view?usp=sharing
-에서 다운로드 받은 후 폴더들은 ros2_ws/src 아래로 복사하고 나서 colcon build 해주세요.
+에서 다운로드 받은 후 폴더들은 basic_ros2_ws/src 아래로 복사하고 나서 colcon build 해주세요.
 
 # ros2_basic_test 
 
