@@ -1,3 +1,17 @@
+# 1. nvargus 데몬 중지
+sudo systemctl stop nvargus-daemon
+
+# 2. 혹시 남아있을지 모르는 관련 프로세스 강제 종료
+sudo pkill -9 -f nvargus-daemon
+sudo pkill -9 -f argus_camera
+
+# 3. GStreamer 캐시 및 임시 버퍼 제거
+rm -rf ~/.cache/gstreamer-1.0
+
+# 4. nvargus 데몬 다시 시작
+sudo systemctl start nvargus-daemon
+
+
 ## Edit bashrc for ROS workspace setting 
 
 cd
