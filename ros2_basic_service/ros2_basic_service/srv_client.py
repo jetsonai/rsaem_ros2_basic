@@ -19,7 +19,7 @@ class BasicClient(Node):
         self.req = WordCount.Request()
 
     def send_request(self):
-        self.req.words = "Hello ROS World";
+        self.req.words = "Hello ROS World"
         self.future = self.cli.call_async(self.req)
 
 
