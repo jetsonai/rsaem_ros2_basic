@@ -16,7 +16,7 @@ https://drive.google.com/file/d/1VAbHFt9c2Rku92v30xDB8SwsaRMi1u_F/view?usp=shari
 에서 다운로드 받은 후 폴더들은 basic_ros2_ws/src 아래로 복사해주세요.
 
 cd basic_ros2_ws
-olcon build 
+colcon build 
 
 # ros2_basic_test 
 
