@@ -22,7 +22,7 @@ colcon build
 
 colcon build --packages-select ros2_basic_test
 
-source /home/rssaem/ros2_ws/install/setup.bash
+source ~/basic_ros2_ws/install/setup.bash
 
 ros2 run ros2_basic_test rostopic_pub
 
@@ -40,8 +40,7 @@ colcon build --packages-select custom_msgpack
 
 colcon build --packages-select ros2_basic_topicmsg
 
-source /home/rssaem/ros2_ws/install/setup.bash
-
+source ~/basic_ros2_ws/install/setup.bash
 
 ros2 run ros2_basic_topicmsg info_publisher
 
@@ -53,7 +52,7 @@ ros2 run ros2_basic_topicmsg info_subscriber
 
 colcon build --packages-select ros2_basic_service
 
-source /home/rssaem/ros2_ws/install/setup.bash
+source ~/basic_ros2_ws/install/setup.bash
 
 ros2 run ros2_basic_service srv_server
 
@@ -65,7 +64,7 @@ ros2 run ros2_basic_service srv_client
 
 colcon build --packages-select ros2_basic_action
 
-source /home/rssaem/ros2_ws/install/setup.bash
+source ~/basic_ros2_ws/install/setup.bash
 
 ros2 run ros2_basic_action simple_action_server
 
