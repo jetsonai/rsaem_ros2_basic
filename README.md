@@ -12,7 +12,7 @@ mkdir -p basic_ros2_ws/src
 
 # rsaem_ros2_basic
 
-https://drive.google.com/file/d/1VAbHFt9c2Rku92v30xDB8SwsaRMi1u_F/view?usp=sharing
+https://drive.google.com/drive/folders/1elMd5otT5IjaXucvNX2auvS0Nbw743DX?usp=sharing
 에서 다운로드 받은 후 폴더들은 basic_ros2_ws/src 아래로 복사해주세요.
 
 cd basic_ros2_ws
