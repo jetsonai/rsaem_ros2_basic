@@ -28,7 +28,8 @@ setup(
     entry_points={
         'console_scripts': [
             'srv_server = ros2_basic_service.srv_server:main',
-            'srv_client = ros2_basic_service.srv_client:main',
+            'srv_client_spin = ros2_basic_service.srv_client_spin:main',
+            'srv_client_callback = ros2_basic_service.srv_client_callback:main',
         ],
     },
 )
