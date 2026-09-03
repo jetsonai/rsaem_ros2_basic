@@ -12,7 +12,7 @@ from custom_msgpack.msg import Infodata
 class InfoTopicSubscriber(Node):
 
     def __init__(self):
-        super().__init__('rostopic_sub')
+        super().__init__('info_subscriber')
         qos_profile = QoSProfile(depth=10)
         self.basicsrv_subscriber = self.create_subscription(
             Infodata,
