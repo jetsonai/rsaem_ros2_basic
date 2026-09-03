@@ -24,7 +24,7 @@ class InfoTopicPublisher(Node):
         msg.id_num = random()
         msg.account = random()
         self.info_publisher.publish(msg)
-        self.get_logger().info('Published id_num:{0} id_accountnum: {0}'.format(msg.id_num, msg.account))
+        self.get_logger().info('Published id_num:{0} id_accountnum: {1}'.format(msg.id_num, msg.account))
 
 
 def main(args=None):
