@@ -11,9 +11,7 @@ ROS_DOMAIN_ID 를 본인 번호로 바꾸어 주세요
 mkdir -p basic_ros2_ws/src
 
 # rsaem_ros2_basic
-
-https://drive.google.com/drive/folders/1elMd5otT5IjaXucvNX2auvS0Nbw743DX?usp=sharing
-에서 다운로드 받은 후 폴더들은 basic_ros2_ws/src 아래로 복사해주세요.
+git clone https://github.com/jetsonai/rsaem_ros2_basic
 
 cd basic_ros2_ws
 colcon build 
